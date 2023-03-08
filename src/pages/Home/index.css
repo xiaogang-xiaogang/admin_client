@@ -1,0 +1,18 @@
+.content {
+  padding: 25px;
+}
+.content .content-top {
+  display: flex;
+  align-items: center;
+  height: 40%;
+  margin-bottom: 50px;
+}
+.content .content-top .content-top-left {
+  margin-right: 70px;
+}
+.content .content-top .content-top-right {
+  margin-left: 50px;
+}
+.content .content-bottom {
+  height: 60%;
+}

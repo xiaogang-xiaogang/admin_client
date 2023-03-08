@@ -1,0 +1,60 @@
+.header {
+  height: 80px;
+  color: black;
+  background-color: white;
+}
+.header .header-top {
+  height: 40px;
+  width: 100%;
+  border-bottom: solid 1px ;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header .header-top span {
+  font-size: 10px;
+  border-right: solid 1px ;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+.header .header-top a {
+  color: hotpink;
+  margin-right: 10px;
+  font-size: 10px;
+}
+.header .header-bottom {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.header .header-bottom .header-bottom-left {
+  position: relative;
+  width: 25%;
+  text-align: center;
+}
+.header .header-bottom .header-bottom-left h2 {
+  font-size: 20px;
+}
+.header .header-bottom .header-bottom-left::after {
+  content: '';
+  position: absolute;
+  border-top: 25px solid white;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  right: 50%;
+  transform: translateX(50%);
+  top: 100%;
+}
+.header .header-bottom .header-bottom-right {
+  width: 75%;
+  text-align: right;
+}
+.header .header-bottom .header-bottom-right span {
+  font-size: 10px;
+  margin-right: 10px;
+}
+.header .header-bottom .header-bottom-right img {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
